@@ -1,0 +1,43 @@
+/* Formation section styling */
+.Formation{
+    color:#fff;
+    background: #111;
+}
+.Formation .title::before{
+    background: #fff;
+}
+.Formation .title::after{
+    background: #111;
+    content: "professionel";
+}
+.Formation.Formation-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Formation .Formation-content .card:hover{
+    background: crimson;
+}
+.Formation .Formation-content .card .box{
+    transition: all 0.3s ease;
+}
+.Formation .Formation-content .card:hover .box{
+    transform: scale(1.00);
+}
+.Formation .Formation-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.Formation .Formation-content .card:hover i{
+    color: #fff;
+}
+.Formation .Formation-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
